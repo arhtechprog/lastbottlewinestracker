@@ -47,9 +47,6 @@ class LBTracker():
 
 			# assume full year is listed
 			end = start + 4
-
-			print("index of start = " + str(start))
-			print("index of end = " + str(end))
 			self.year = self.wine[start:end]
 
 		return self.year
